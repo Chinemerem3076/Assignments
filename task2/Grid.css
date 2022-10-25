@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto, sans-serif;
+    background-color: papayawhip;
+    
+}
+@media screen and (max-width:800px) and (min-width:400px) {
+    body{
+        background-color: red;
+    }
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    "a a b "
+    "c d d"
+    "c e e"
+    ;
+    margin: auto;
+    width: 50%;
+    gap: 15px;
+    margin-top: 100px;
+    background-color: black;
+
+}
+main div{
+    text-align: center;           
+}
+.box-1{
+    background-color: purple;
+    grid-area: a;
+    padding: 100px;
+}
+.box-2{
+    background-color: gray;
+    grid-area: b;
+    padding: 100px;
+}
+.box-3{
+    background-color: green;
+    grid-area: c;
+    padding: 100px;
+}
+.box-4{
+    background-color: blue;
+    grid-area: d;
+     padding: 50px;
+}
+.box-5{
+    background-color: blue;
+    grid-area: e;
+     padding: 50px;
+}
