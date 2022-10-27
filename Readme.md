@@ -35,3 +35,9 @@ Github is cloud storage use to save a git file.
 
 ⚡️ Fun fact...
 
+
+
+## 🛠 Skills
+Javascript, HTML, CSS...
+
+
